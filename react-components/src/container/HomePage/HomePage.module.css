@@ -1,0 +1,50 @@
+.container {
+    width: 1700px;
+    margin: auto;
+}
+
+.header {
+    background: url(../../../public/img/bg.jpg);
+    background-repeat: no-repeat;
+    padding: 250px 0 392px;
+}
+
+.header h1 {
+    font-size: 50px;
+    width: 1200px;
+    color: #fff;
+}
+
+.header p {
+    color: #fff;
+    line-height: 52px;
+    margin-top: 20px;
+    font-size: 28px;
+    width: 800px;
+}
+.Title{
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin: 100px 0 50px;
+}
+.Cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Cards img {
+    width: 400px;
+    height: 400px;
+}
+
+iframe{
+    width: 540px;
+    height: 300px;
+    border: none;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+}

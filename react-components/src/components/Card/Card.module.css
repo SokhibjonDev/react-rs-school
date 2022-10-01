@@ -1,0 +1,34 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+span {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.Card h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.data {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.data p {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.data p:last-child {
+    font-weight: 500;
+    font-size: 17px;
+}
